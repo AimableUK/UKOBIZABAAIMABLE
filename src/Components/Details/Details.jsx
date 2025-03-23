@@ -1,14 +1,14 @@
 import React from 'react'
 import { FaLocationArrow, FaPhone, FaTwitter, FaLinkedin, FaEnvelope, FaGithub } from "react-icons/fa";
-import AimableImg from '../../assets/AimableImg.png'
+import AimableImg from '../../assets/AimableImg.jpg'
 import { Link } from 'react-router-dom';
 
 const Menu = () => {
 
   const MySocials1 = [
-    { icon: <FaGithub />, url: `https://github.com/aimabletrague` },
-    { icon: <FaTwitter />, url: `https://twitter.com/intent/ingagari` },
-    { icon: <FaLinkedin />, url: `https://www.linkedin.com/ukobizabaaimable` },
+    { icon: <FaGithub />, url: `https://github.com/AimableTrague` },
+    { icon: <FaTwitter />, url: `https://x.com/ingagari__` },
+    { icon: <FaLinkedin />, url: `https://rw.linkedin.com/in/ukobizaba-aimable-a104122a7` },
     { icon: <FaEnvelope />, url: `mailto:aimableukobizaba@gmail.com` },
   ];
 
@@ -25,7 +25,7 @@ const Menu = () => {
 
       <div className='mb-1 flex flex-col items-center relative'>
         
-        <img src={AimableImg} className='absolute -mt-14 w-24 border-4 border-primaryBorder rounded-lg p-3 bg-white' />
+        <img src={AimableImg} className='absolute -mt-14 w-20 border-4 border-primaryBorder rounded-lg bg-white' />
         <h3 className='font-bold text-2xl mt-10'>UKOBIZABA Aimable</h3>
         <h5 className='role border border-primaryBorder rounded-sm bg-primaryBody p-1 font-semibold'>FrontEnd Developer</h5>
       </div>
