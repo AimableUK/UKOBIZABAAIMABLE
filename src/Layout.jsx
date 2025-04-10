@@ -16,7 +16,7 @@ const Layout = () => {
     if (outletRef.current) {
       outletRef.current.scrollIntoView({ behavior: "smooth", block: "start" });
     }
-  }); 
+  });
 
   return (
     <div>
