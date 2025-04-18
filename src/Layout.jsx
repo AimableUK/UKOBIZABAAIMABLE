@@ -4,7 +4,7 @@ import Details from './Components/Details/Details';
 import Menu from './Components/Menu/Menu';
 import DarkMode from './Components/DarkMode/DarkMode'
 import PageTitleUpdater from './Components/TitleUpdater/TitleUpdater';
-
+import { Analytics } from "@vercel/analytics/react"
 
 const Layout = () => {
   const location = useLocation();
@@ -21,6 +21,7 @@ const Layout = () => {
   return (
     <div>
       <PageTitleUpdater />
+      <Analytics />
       {/* Small Devices (Mobile) */}
       <div className="flex flex-col gap-10 justify-between items-center md:items-start mt-10 mb-20 md:m-20 ml-5 lg:ml-12 mr-5  lg:mr-12 md:hidden">
         <Details />
