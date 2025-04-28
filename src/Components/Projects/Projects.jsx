@@ -21,7 +21,7 @@ const Projects = () => {
         >
           <a href='https://malos-core.vercel.app/' target='_blank'>
             <img src={malosCore} alt='malosFLix Project' className="w-full h-auto object-cover border-2 rounded-md border-black" />
-            <p className='font-bold'>Malos Core - Admin Panel(Under Development)</p>
+            <p className='font-bold'>Malos Core - Admin Panel</p>
             <p className='font-semibold'>Visit Website</p>
           </a>
           
@@ -31,7 +31,7 @@ const Projects = () => {
         >
           <a href='https://malos-haven.vercel.app/' target='_blank'>
             <img src={malosHaven} alt='malosHaven Project' className="w-full h-auto object-cover border-2 rounded-md border-black" />
-            <p className='font-bold'>Malos Haven - Tenant Management</p>
+            <p className='font-bold'>Malos Haven - Tenant Management(Under Development)</p>
             <p className='font-semibold'>Visit Website</p>
           </a>
           
