@@ -1,7 +1,7 @@
 import React from 'react';
 import malosFlix from '../../assets/malosFlix.png';
 import malosCore from '../../assets/malosCore.png';
-import malosHaven from '../../../public/assets/MalosHaven.png'
+import malosHaven from '../../assets/MalosHaven.png'
 
 const Projects = () => {
   return (
@@ -21,7 +21,7 @@ const Projects = () => {
         >
           <a href='https://malos-core.vercel.app/' target='_blank'>
             <img src={malosCore} alt='malosFLix Project' className="w-full h-auto object-cover border-2 rounded-md border-black" />
-            <p className='font-bold'>Malos Core - Admin Panel</p>
+            <p className='font-bold'>Malos Core - Admin Panel(Under Development)</p>
             <p className='font-semibold'>Visit Website</p>
           </a>
           
