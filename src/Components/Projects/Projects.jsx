@@ -1,7 +1,7 @@
 import React from 'react';
 import malosFlix from '../../assets/malosFlix.png';
 import malosCore from '../../assets/malosCore.png';
-// import malosHaven from '../../assets/malosHaven.png'
+import malosHaven from '../../assets/malosHaven.png'
 
 const Projects = () => {
   return (
@@ -30,7 +30,7 @@ const Projects = () => {
           className="cursor-pointer w-full flex flex-col items-start border-2 border-primaryBorder p-3 rounded-md shadow-lg transition-transform duration-300 hover:translate-y-2"
         >
           <a href='#'>
-            <img src={malosCore} alt='malosHaven Project' className="w-full h-auto object-cover border-2 rounded-md border-black" />
+            <img src={malosHaven} alt='malosHaven Project' className="w-full h-auto object-cover border-2 rounded-md border-black" />
             <p className='font-bold'>Malos Haven - Tenant Management</p>
             <p className='font-semibold'>Still in devpt</p>
           </a>
