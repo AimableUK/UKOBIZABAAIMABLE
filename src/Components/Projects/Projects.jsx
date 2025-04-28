@@ -1,7 +1,7 @@
 import React from 'react';
 import malosFlix from '../../assets/malosFlix.png';
 import malosCore from '../../assets/malosCore.png';
-import malosHaven from '../../../public/assets/malosHaven.png'
+import malosHaven from '../../../public/assets/MalosHaven.png'
 
 const Projects = () => {
   return (
