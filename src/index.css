@@ -12,7 +12,6 @@
   --body_primaryText: #403d22;
   --body_text: #1f2937;
 }
-/* all: #131312 cardbg: #000000 details: #3b3729 */
 
 [data-theme="dark"] {
   --body_background: #1e1e1c;
@@ -26,17 +25,19 @@
 }
 
 * {
-    box-sizing: border-box;
-    transition: all 0.2s ease-in-out;
-  }
+  box-sizing: border-box;
+  transition: all 0.2s ease-in-out;
+}
 
 body {
   background-color: var(--body_background);
   color: var(--body_text);
 }
+
 .details {
   background-color: var(--body_primaryCard);
 }
+
 .detail-box {
   background-color: var(--body_primaryDetail);
 }
