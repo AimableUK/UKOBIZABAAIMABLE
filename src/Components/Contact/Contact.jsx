@@ -1,7 +1,7 @@
 import React, {useState, useEffect} from 'react'
 import { Formik, Field, ErrorMessage, Form } from 'formik'
 import SubmitSchema from '../ContactSchema/SubmitSchema'
-import emailjs from 'emailjs-com'
+import emailjs from '@emailjs/browser';
 import { pinwheel } from 'ldrs'
 
 pinwheel.register()
