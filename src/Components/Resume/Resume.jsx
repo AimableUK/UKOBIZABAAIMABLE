@@ -13,7 +13,7 @@ const Resume = () => {
           <AiFillFilePdf /> Download
         </a>
       </div>
-
+      
       <iframe
         src="../../../public/UkobizabaAimableCV.pdf"
         width="100%"
