@@ -1,4 +1,5 @@
 import { AiFillFilePdf } from "react-icons/ai";
+import UkobizabaAimableCV from "../../assets/UkobizabaAimableCV.png";
 
 const Resume = () => {
   return (
@@ -14,12 +15,11 @@ const Resume = () => {
         </a>
       </div>
 
-      <iframe
-        src="../../../public/UkobizabaAimableCV.pdf"
+      <img
+        src={UkobizabaAimableCV}
         width="100%"
         height="600px"
-        title="AIMABLE UKOBIZABA CV"
-      ></iframe>
+      />
     </div>
   );
 };
