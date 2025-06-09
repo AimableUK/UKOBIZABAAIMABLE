@@ -1,5 +1,5 @@
 import { AiFillFilePdf } from "react-icons/ai";
-import UkobizabaAimableCV from "../../assets/UkobizabaAimableCV.png";
+import UkobizabaAimableCV from "../../assets/UkobizabaAimableCV.jpg";
 import { useState } from "react";
 
 const Resume = () => {
