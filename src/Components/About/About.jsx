@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from 'react-router-dom';
+import { Link } from "react-router-dom";
 
 const About = () => {
   return (
@@ -13,43 +13,39 @@ const About = () => {
             <span class="w-8 h-[4px] bg-primaryBorder rounded"></span>
           </div>
           <p className="text-lg mb-4">
-            I’m a passionate <strong>Software Engineer</strong> with experience
-            in{" "}
-            <strong>
-              web development, UI/UX design, and performance optimization
-            </strong>
-            . I enjoy creating modern, scalable applications with a strong focus
-            on <strong>clean architecture and seamless user experiences</strong>.
+            I'm a passionate <strong>Full-Stack Software Engineer</strong> who
+            enjoys building&nbsp;
+            <strong>modern, scalable applications</strong>. I focus on
+            creating&nbsp;
+            <strong>clean architectures</strong> and delivering&nbsp;
+            <strong>seamless user experiences</strong> with reliable
+            performance.
           </p>
 
           <div class="w-full flex flex-col lg:flex-row gap-6 sm:gap-4 lg:gap-6 justify-between">
             <div class="w-full flex flex-col gap-2">
-              
-              {/* <!-- Progress bar 1 --> */}
               <div class="flex flex-col gap-2">
                 <div class="w-full flex justify-between font-semibold">
-                  <span>HTML/CSS/Javascript</span>
-                  <span>90 %</span>
+                  <span>Python, Django</span>
+                  <span>69 %</span>
                 </div>
                 {/* <!-- Progress bar --> */}
                 <div class="w-full bg-gray-300 rounded-full">
-                  <div class="w-[90%] h-2 bg-primaryBorder rounded-full"></div>
+                  <div class="w-[69%] h-2 bg-primaryBorder rounded-full"></div>
                 </div>
               </div>
 
-              {/* <!-- Progress bar 3 --> */}
               <div class="flex flex-col gap-2">
                 <div class="w-full flex justify-between font-semibold">
-                  <span>React.js</span>
+                  <span>Javascript, React.js</span>
                   <span>78 %</span>
                 </div>
                 {/* <!-- Progress bar --> */}
                 <div class="w-full bg-gray-300 rounded-full">
-                  <div class="w-[80%] h-2 bg-primaryBorder rounded-full"></div>
+                  <div class="w-[78%] h-2 bg-primaryBorder rounded-full"></div>
                 </div>
               </div>
 
-              {/* <!-- Progress bar 4 --> */}
               <div class="flex flex-col gap-2">
                 <div class="w-full flex justify-between font-semibold">
                   <span>Tailwind CSS</span>
@@ -61,31 +57,13 @@ const About = () => {
                 </div>
               </div>
 
-
-              <div class="flex flex-col gap-2">
-                <div class="w-full flex justify-between font-semibold">
-                  <span>MongoDB, PostreSQL, MySQL</span>
-                  <span>70 %</span>
-                </div>
-                {/* <!-- Progress bar --> */}
-                <div class="w-full bg-gray-300 rounded-full">
-                  <div class="w-[70%] h-2 bg-primaryBorder rounded-full"></div>
-                </div>
-              </div>
-
-              <div class="flex flex-col gap-2">
-                <div class="w-full flex justify-between font-semibold">
-                  <span>Python, Django</span>
-                  <span>63 %</span>
-                </div>
-                {/* <!-- Progress bar --> */}
-                <div class="w-full bg-gray-300 rounded-full">
-                  <div class="w-[70%] h-2 bg-primaryBorder rounded-full"></div>
-                </div>
-              </div>
-
               <div class="flex gap-4 justify-center sm:justify-start">
-                <Link className='mt-5 border-2 rounded p-2 pr-5 pl-5 bg-primaryBg border-primaryBorder text-primaryText font-bold hover:bg-primaryBorder hover:text-white transition duration-200 ease-out' to={'mailto:aimableukobizaba@gmail.com'}>HIRE ME</Link>
+                <Link
+                  className="mt-5 border-2 rounded p-2 pr-5 pl-5 bg-primaryBg border-primaryBorder text-primaryText font-bold hover:bg-primaryBorder hover:text-white transition duration-200 ease-out"
+                  to={"mailto:aimableukobizaba@gmail.com"}
+                >
+                  HIRE ME
+                </Link>
               </div>
             </div>
           </div>

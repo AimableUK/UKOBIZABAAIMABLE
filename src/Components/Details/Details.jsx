@@ -27,7 +27,7 @@ const Menu = () => {
         
         <img src={AimableImg} className='absolute -mt-14 w-20 border-4 border-primaryBorder rounded-lg bg-white' />
         <h3 className='font-bold text-2xl mt-10'>UKOBIZABA Aimable</h3>
-        <h5 className='role border border-primaryBorder rounded-sm bg-primaryBody p-1 font-semibold'>FrontEnd Developer</h5>
+        <h5 className='role border border-primaryBorder rounded-sm bg-primaryBody p-1 font-semibold'>Full-Stack Developer</h5>
       </div>
 
       <div className='flex flex-row mb-5'>
