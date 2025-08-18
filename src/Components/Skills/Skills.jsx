@@ -1,8 +1,9 @@
 import React from "react";
 import "boxicons";
-import { FaReact, FaJs } from "react-icons/fa";
+import { FaReact, FaJs, FaPython } from "react-icons/fa";
 import { RiTailwindCssFill } from "react-icons/ri";
 import { BiLogoPostgresql } from "react-icons/bi";
+import { SiDjango } from "react-icons/si";
 
 const Skills = () => {
   return (
@@ -20,7 +21,7 @@ const Skills = () => {
               </p>
             </div>
             <div className="border-2 border-primaryBorder rounded-md p-2 shadow-primaryBg shadow-[5px_5px_15px_rgba(0,0,0,0.3)]">
-              <i className="devicon-django-plain colored text-4xl"></i>
+              <SiDjango className="text-4xl text-green-950" />
             </div>
           </div>
 
@@ -34,7 +35,7 @@ const Skills = () => {
               </p>
             </div>
             <div className="border-2 border-primaryBorder rounded-md p-2 shadow-primaryBg shadow-[5px_5px_15px_rgba(0,0,0,0.3)]">
-              <i className="devicon-python-plain colored text-4xl"></i>
+              <FaPython className="text-4xl text-yellow-300" />
             </div>
           </div>
 
