@@ -73,9 +73,9 @@ https://nivra.vercel.app/
 ## SKILLS
 
 ```
-##FRONTEND:
+FRONTEND:
 JavaScript, TailwindCSS, ReactJS, HTML/CSS, 
-##BACKEND:
+BACKEND:
 Python, Django, PostgreSQL
 ```
 ### INTERESTS
