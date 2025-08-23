@@ -1,6 +1,6 @@
 # UKOBIZABA Aimable
 
-## FullStack Software Engineer | Web Technologies
+#### FullStack Software Engineer | Web Technologies
 
 **HOURS SINCE 4/8/2025** [![wakatime](https://wakatime.com/badge/user/90ec315b-3d97-44e2-9ffa-133815a73fcf.svg)](https://wakatime.com/@90ec315b-3d97-44e2-9ffa-133815a73fcf)
 
@@ -10,8 +10,9 @@
 
 ```
 Full-Stack Developer skilled in building web applications in React JS and DJANGO.
-Passionate about creating high-performance, user-friendly interfaces and continuously learning modern web technologies.
-Strong problem-solving abilities and a proactive approach to technical challenges
+Passionate about creating high-performance, user-friendly interfaces and continuously
+learning modern web technologies. Strong problem-solving abilities and a proactive
+approach to technical challenges
 ```
 ## PROJECTS
 
@@ -72,9 +73,9 @@ https://nivra.vercel.app/
 ## SKILLS
 
 ```
-FRONTEND:
+##FRONTEND:
 JavaScript, TailwindCSS, ReactJS, HTML/CSS, 
-BACKEND:
+##BACKEND:
 Python, Django, PostgreSQL
 ```
 ### INTERESTS
@@ -82,14 +83,15 @@ Python, Django, PostgreSQL
 #### Web Application Development
 
 ```
-Passionate about creating efficient and scalable web applications that with React JS and Django Frameworks
+Passionate about creating efficient and scalable web applications that with
+React JS and Django Frameworks
 ```
 
 ### LANGUAGES
 
 #### English Proficient
 
-### Developers
+### HOBBY
 
 ```
 I find great satisfaction in guiding new developers through the complexities of modern web development.
