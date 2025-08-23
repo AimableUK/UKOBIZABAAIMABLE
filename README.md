@@ -2,7 +2,7 @@
 
 ## FullStack Software Engineer | Web Technologies
 
-[![wakatime](https://wakatime.com/badge/user/90ec315b-3d97-44e2-9ffa-133815a73fcf.svg)](https://wakatime.com/@90ec315b-3d97-44e2-9ffa-133815a73fcf)
+**HOURS SINCE 4/8/2025** [![wakatime](https://wakatime.com/badge/user/90ec315b-3d97-44e2-9ffa-133815a73fcf.svg)](https://wakatime.com/@90ec315b-3d97-44e2-9ffa-133815a73fcf)
 
 #### @ aimableukobizaba@gmail.com  - kigali, Rwanda
 
@@ -65,57 +65,24 @@ https://nivra.vercel.app/
   quickly access the weather insights they need at a glance.
   
 
-## EXPERIENCE
-
-#### Senior Front End Developer Assisstant 11/2022  - 07/2024
-
-#### Inspire Works Design Muhanga,Rwanda
-
-## KEY ACHIEVEMENTS
-
-### Reduced Load Times
-
-```
-Spearheaded the redesign of a major application, reducing load times by 30%, enhancing customer satisfaction.
-```
-### Boosted User Engagement
-
-```
-Implemented accessible design principles, resulting in a 25% increase in user engagement across devices.
-```
-### Mentorship Excellence
-
-```
-Successfully mentored over 35 junior developers, significantly improving the team's overall skill set and productivity.
-```
-- Frontend developer with experience teaching web development at
-    Inspire Works Design.
-- Skilled in React.js, with a focus on building high-performance web
-    applications.
-- Experienced in mentoring and guiding students in coding best practices,
-    debugging, and problem-solving.
-- Passionate about breaking down complex concepts into easy-to-
-    understand lessons.
-- Mentored junior developers in front end technologies, improving team
-    skills and project delivery speed by 40%.
-- Strong communicator with a proactive approach to learning, teaching,
-    and technical innovation.
-
 ## EDUCATION
 
-#### Bachelor of IT – (SOFTWARE ENG.)  - OnGoing
+#### Bachelor of IT – (SOFTWARE ENGINEERING)  - OnGoing
 
 ## SKILLS
 
 ```
-ReactJS, HTML/CSS, JavaScript, TailwindCSS
+FRONTEND:
+JavaScript, TailwindCSS, ReactJS, HTML/CSS, 
+BACKEND:
+Python, Django, PostgreSQL
 ```
 ### INTERESTS
 
 #### Web Application Development
 
 ```
-Passionate about creating efficient and scalable web applications that enhance
+Passionate about creating efficient and scalable web applications that with React JS and Django Frameworks
 ```
 
 ### LANGUAGES
