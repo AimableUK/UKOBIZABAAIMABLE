@@ -1,97 +1,87 @@
 import React from "react";
 import "boxicons";
-import { FaReact, FaJs, FaPython } from "react-icons/fa";
-import { RiTailwindCssFill } from "react-icons/ri";
-import { BiLogoPostgresql } from "react-icons/bi";
 import { SiDjango } from "react-icons/si";
+import { FaPython } from "react-icons/fa";
+import { IoLogoJavascript } from "react-icons/io5";
+import { IoLogoReact } from "react-icons/io5";
+import { FaGitAlt } from "react-icons/fa6";
+import { SiGithubactions } from "react-icons/si";
+import { IoLogoDocker } from "react-icons/io5";
+import { SiPostman } from "react-icons/si";
+import { SiPrisma } from "react-icons/si";
+import { BiLogoTypescript } from "react-icons/bi";
+import { SiNextdotjs } from "react-icons/si";
 
 const Skills = () => {
   return (
     <div className="flex flex-col gap-3 w-full">
-      <h3 className="self-center text-2xl font-semibold">Skills</h3>
+      <h3 className="self-center text-2xl font-bold">MY SKILLS</h3>
       <div className="flex flex-col justify-start items-start">
-        <div className="flex flex-col mb-5 space-y-4">
-          {/* Django */}
-          <div className="flex items-center p-2 w-full">
-            <div className="flex-1 pr-3">
-              <h3 className="font-bold text-lg">Django</h3>
-              <p className="text-sm">
-                Backend framework I use to build secure, scalable, and
-                data-driven applications.
-              </p>
-            </div>
-            <div className="border-2 border-primaryBorder rounded-md p-2 shadow-primaryBg shadow-[5px_5px_15px_rgba(0,0,0,0.3)]">
-              <SiDjango className="text-4xl text-green-950" />
-            </div>
-          </div>
-
-          {/* Python */}
-          <div className="flex items-center p-2 w-full">
-            <div className="flex-1 pr-3">
-              <h3 className="font-bold text-lg">Python</h3>
-              <p className="text-sm">
-                My go-to language for backend development, APIs, and
-                problem-solving.
-              </p>
-            </div>
-            <div className="border-2 border-primaryBorder rounded-md p-2 shadow-primaryBg shadow-[5px_5px_15px_rgba(0,0,0,0.3)]">
-              <FaPython className="text-4xl text-yellow-300" />
+        <div className="flex flex-col gap-8">
+          {/* Languages */}
+          <div>
+            <h3 className="text-2xl font-bold mb-2">Languages</h3>
+            <div className="flex flex-wrap gap-4 items-center">
+              <div className="flex flex-col items-center gap-1">
+                <FaPython className="w-10 h-10" />
+                <span>Python</span>
+              </div>
+              <div className="flex flex-col items-center gap-1">
+                <IoLogoJavascript className="w-10 h-10" />
+                <span>JavaScript</span>
+              </div>
+              <div className="flex flex-col items-center gap-1">
+                <BiLogoTypescript className="w-10 h-10" />
+                <span>TypeScript</span>
+              </div>
             </div>
           </div>
 
-          {/* React */}
-          <div className="flex items-center p-2 w-full">
-            <div className="flex-1 pr-3">
-              <h3 className="font-bold text-lg">React</h3>
-              <p className="text-sm">
-                I use React to create fast, interactive, and reusable user
-                interfaces.
-              </p>
-            </div>
-            <div className="border-2 border-primaryBorder rounded-md p-2 shadow-primaryBg shadow-[5px_5px_15px_rgba(0,0,0,0.3)]">
-              <FaReact className="text-4xl" />
-            </div>
-          </div>
-
-          {/* JavaScript */}
-          <div className="flex items-center p-2 w-full">
-            <div className="flex-1 pr-3">
-              <h3 className="font-bold text-lg">JavaScript</h3>
-              <p className="text-sm">
-                The foundation of my frontend work—bringing interactivity to the
-                web.
-              </p>
-            </div>
-            <div className="border-2 border-primaryBorder rounded-md p-2 shadow-primaryBg shadow-[5px_5px_15px_rgba(0,0,0,0.3)]">
-              <FaJs className="text-4xl text-yellow-300" />
+          {/* Frameworks */}
+          <div>
+            <h3 className="text-2xl font-bold mb-2">Frameworks</h3>
+            <div className="flex flex-wrap gap-4 items-center">
+              <div className="flex flex-col items-center gap-1">
+                <SiDjango className="w-10 h-10" />
+                <span>Django</span>
+              </div>
+              <div className="flex flex-col items-center gap-1">
+                <IoLogoReact className="w-10 h-10" />
+                <span>React.js</span>
+              </div>
+              <div className="flex flex-col items-center gap-1">
+                <SiNextdotjs className="w-10 h-10" />
+                <span>Next.js</span>
+              </div>
             </div>
           </div>
 
-          {/* Tailwind */}
-          <div className="flex items-center p-2 w-full">
-            <div className="flex-1 pr-3">
-              <h3 className="font-bold text-lg">Tailwind</h3>
-              <p className="text-sm">
-                Utility-first CSS framework I use for building clean, responsive
-                designs quickly.
-              </p>
-            </div>
-            <div className="border-2 border-primaryBorder rounded-md p-2 shadow-primaryBg shadow-[5px_5px_15px_rgba(0,0,0,0.3)]">
-              <RiTailwindCssFill className="text-4xl text-blue-400" />
-            </div>
-          </div>
-
-          {/* PostgreSQL */}
-          <div className="flex items-center p-2 w-full">
-            <div className="flex-1 pr-3">
-              <h3 className="font-bold text-lg">PostgreSQL</h3>
-              <p className="text-sm">
-                Relational database I rely on for structured, reliable, and
-                scalable data storage.
-              </p>
-            </div>
-            <div className="border-2 border-primaryBorder rounded-md p-2 shadow-primaryBg shadow-[5px_5px_15px_rgba(0,0,0,0.3)]">
-              <BiLogoPostgresql className="text-4xl text-blue-500" />
+          {/* Tools & Technologies */}
+          <div>
+            <h3 className="text-2xl font-bold mb-2">
+              Tools & Technologies
+            </h3>
+            <div className="flex flex-wrap gap-4 items-center">
+              <div className="flex flex-col items-center gap-1">
+                <FaGitAlt className="w-10 h-10" />
+                <span>Git</span>
+              </div>
+              <div className="flex flex-col items-center gap-1">
+                <SiGithubactions className="w-10 h-10" />
+                <span>GitHub Actions</span>
+              </div>
+              <div className="flex flex-col items-center gap-1">
+                <IoLogoDocker className="w-10 h-10" />
+                <span>Docker</span>
+              </div>
+              <div className="flex flex-col items-center gap-1">
+                <SiPostman className="w-10 h-10" />
+                <span>Postman</span>
+              </div>
+              <div className="flex flex-col items-center gap-1">
+                <SiPrisma className="w-10 h-10" />
+                <span>Prisma</span>
+              </div>
             </div>
           </div>
         </div>

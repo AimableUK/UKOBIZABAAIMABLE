@@ -8,8 +8,11 @@ const Home = () => {
         Welcome to My Portfolio
       </h1>
       <p className="text-lg md:text-xl max-w-xl mb-6 animate-slide-up">
-        Hi, I'm Ukobizaba Aimable, a passionate Full-Stack Developer focused on
-        building scalable and interactive web applications.
+        Hi, I'm Ukobizaba Aimable,a Full-Stack Developer passionate
+        about building high-performance, user-friendly web applications and
+        familiar with DevOps practices. Strong problem-solving skills, proactive
+        in tackling technical challenges, and committed to continuously learning
+        modern web technologies
       </p>
 
       <div className="flex gap-4">

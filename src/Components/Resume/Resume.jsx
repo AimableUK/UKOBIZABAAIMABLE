@@ -1,6 +1,5 @@
 import { AiFillFilePdf } from "react-icons/ai";
 import UkobizabaAimableCV1 from "../../assets/UkobizabaAimableCVImage1.png";
-import UkobizabaAimableCV2 from "../../assets/UkobizabaAimableCVImage2.png";
 import { useState } from "react";
 
 const Resume = () => {
@@ -38,7 +37,6 @@ const Resume = () => {
       )}
 
       <img src={UkobizabaAimableCV1} width="100%" height="600px" />
-      <img src={UkobizabaAimableCV2} width="100%" height="600px" />
     </div>
   );
 };

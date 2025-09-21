@@ -1,69 +1,101 @@
-import React from "react";
 import { Link } from "react-router-dom";
+
+import { FaPython } from "react-icons/fa";
+import { IoLogoJavascript } from "react-icons/io5";
+import { SiDjango } from "react-icons/si";
+import { IoLogoReact } from "react-icons/io5";
+import { FaGitAlt } from "react-icons/fa6";
+import { SiGithubactions } from "react-icons/si";
+import { IoLogoDocker } from "react-icons/io5";
+import { SiPostman } from "react-icons/si";
+import { SiPrisma } from "react-icons/si";
+import { BiLogoTypescript } from "react-icons/bi";
+import { SiNextdotjs } from "react-icons/si";
 
 const About = () => {
   return (
-    <div>
-      <div class="w-full min-h-screen flex items-center ">
-        <div class="w-full lg:w-[80%] mx-auto px-4 sm:px-10 lg:px-0 flex flex-col gap-4 pt-5 pb-20">
-          {/* <!-- Title --> */}
-          <div class="flex flex-col gap-2 mb-2 md:mb-4">
-            <h2 class="text-4xl font-serif font-semibold">About Me</h2>
-            <span class="w-16 h-[4px] bg-primaryText rounded"></span>
-            <span class="w-8 h-[4px] bg-primaryBorder rounded"></span>
+    <div className="w-full min-h-screen flex items-center">
+      <div className="w-full lg:w-[80%] mx-auto px-4 sm:px-10 lg:px-0 flex flex-col gap-6 pt-5 pb-20">
+        {/* Title */}
+        <div className="flex flex-col gap-2 mb-4">
+          <h2 className="text-4xl font-serif font-semibold">About Me</h2>
+          <span className="w-16 h-[4px] bg-primaryText rounded"></span>
+          <span className="w-8 h-[4px] bg-primaryBorder rounded"></span>
+        </div>
+
+        {/* Description */}
+        <p className="text-lg mb-6">
+          I'm a passionate <strong>Full-Stack Software Engineer</strong> who
+          enjoys building <strong>modern, scalable applications</strong>. I
+          focus on creating <strong>clean architectures</strong> and delivering
+          <strong> seamless user experiences</strong> with reliable performance.
+        </p>
+
+        {/* Skills Section */}
+        <div className="flex flex-col gap-8">
+          {/* Languages */}
+          <div>
+            <h3 className="text-2xl font-semibold mb-2">Languages</h3>
+            <div className="flex flex-wrap gap-4 items-center">
+              <div className="flex flex-col items-center gap-1">
+                <FaPython className="w-10 h-10" />
+                <span>Python</span>
+              </div>
+              <div className="flex flex-col items-center gap-1">
+                <IoLogoJavascript className="w-10 h-10" />
+                <span>JavaScript</span>
+              </div>
+              <div className="flex flex-col items-center gap-1">
+                <BiLogoTypescript className="w-10 h-10" />
+                <span>TypeScript</span>
+              </div>
+            </div>
           </div>
-          <p className="text-lg mb-4">
-            I'm a passionate <strong>Full-Stack Software Engineer</strong> who
-            enjoys building&nbsp;
-            <strong>modern, scalable applications</strong>. I focus on
-            creating&nbsp;
-            <strong>clean architectures</strong> and delivering&nbsp;
-            <strong>seamless user experiences</strong> with reliable
-            performance.
-          </p>
 
-          <div class="w-full flex flex-col lg:flex-row gap-6 sm:gap-4 lg:gap-6 justify-between">
-            <div class="w-full flex flex-col gap-2">
-              <div class="flex flex-col gap-2">
-                <div class="w-full flex justify-between font-semibold">
-                  <span>Python, Django</span>
-                  <span>69 %</span>
-                </div>
-                {/* <!-- Progress bar --> */}
-                <div class="w-full bg-gray-300 rounded-full">
-                  <div class="w-[69%] h-2 bg-primaryBorder rounded-full"></div>
-                </div>
+          {/* Frameworks */}
+          <div>
+            <h3 className="text-2xl font-semibold mb-2">Frameworks</h3>
+            <div className="flex flex-wrap gap-4 items-center">
+              <div className="flex flex-col items-center gap-1">
+                <SiDjango className="w-10 h-10" />
+                <span>Django</span>
               </div>
-
-              <div class="flex flex-col gap-2">
-                <div class="w-full flex justify-between font-semibold">
-                  <span>Javascript, React.js</span>
-                  <span>78 %</span>
-                </div>
-                {/* <!-- Progress bar --> */}
-                <div class="w-full bg-gray-300 rounded-full">
-                  <div class="w-[78%] h-2 bg-primaryBorder rounded-full"></div>
-                </div>
+              <div className="flex flex-col items-center gap-1">
+                <IoLogoReact className="w-10 h-10" />
+                <span>React.js</span>
               </div>
-
-              <div class="flex flex-col gap-2">
-                <div class="w-full flex justify-between font-semibold">
-                  <span>Tailwind CSS</span>
-                  <span>85 %</span>
-                </div>
-                {/* <!-- Progress bar --> */}
-                <div class="w-full bg-gray-300 rounded-full">
-                  <div class="w-[85%] h-2 bg-primaryBorder rounded-full"></div>
-                </div>
+              <div className="flex flex-col items-center gap-1">
+                <SiNextdotjs className="w-10 h-10" />
+                <span>Next.js</span>
               </div>
+            </div>
+          </div>
 
-              <div class="flex gap-4 justify-center sm:justify-start">
-                <Link
-                  className="mt-5 border-2 rounded p-2 pr-5 pl-5 bg-primaryBg border-primaryBorder text-primaryText font-bold hover:bg-primaryBorder hover:text-white transition duration-200 ease-out"
-                  to={"mailto:aimableukobizaba@gmail.com"}
-                >
-                  HIRE ME
-                </Link>
+          {/* Tools & Technologies */}
+          <div>
+            <h3 className="text-2xl font-semibold mb-2">
+              Tools & Technologies
+            </h3>
+            <div className="flex flex-wrap gap-4 items-center">
+              <div className="flex flex-col items-center gap-1">
+                <FaGitAlt className="w-10 h-10" />
+                <span>Git</span>
+              </div>
+              <div className="flex flex-col items-center gap-1">
+                <SiGithubactions className="w-10 h-10" />
+                <span>GitHub Actions</span>
+              </div>
+              <div className="flex flex-col items-center gap-1">
+                <IoLogoDocker className="w-10 h-10" />
+                <span>Docker</span>
+              </div>
+              <div className="flex flex-col items-center gap-1">
+                <SiPostman className="w-10 h-10" />
+                <span>Postman</span>
+              </div>
+              <div className="flex flex-col items-center gap-1">
+                <SiPrisma className="w-10 h-10" />
+                <span>Prisma</span>
               </div>
             </div>
           </div>
