@@ -2,7 +2,7 @@ import malosHaven from "../../assets/MalosHaven.png";
 import brainpage from "../../assets/brainpage.png";
 import classlink from "../../assets/classlink.png";
 import togetha from "../../assets/togetha.png";
-import velora from "../../assets/tastyMundo.png";
+import velora from "../../assets/noimg.jpg";
 import nivra from "../../assets/nivra.png";
 import malosFlix from "../../assets/malosFlix.png";
 import tastyMundo from "../../assets/tastyMundo.png";
@@ -76,7 +76,8 @@ const Projects = () => {
             alt="malosHaven Project"
             className="w-full h-auto object-cover border-2 rounded-md border-black opacity-10"
           />
-          <p className="font-bold">Velora - Online E-commerce Store with Paypal Integration (Under Development)</p>
+
+          <p className="font-bold">Velora - Online E-commerce Store with Paypal Integration</p>
           <p className="font-semibold">Visit Docs</p>
         </a>
       </div>
