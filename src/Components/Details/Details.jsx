@@ -12,8 +12,7 @@ import { Link } from "react-router-dom";
 
 const Menu = () => {
   const MySocials1 = [
-    { icon: <FaGithub />, url: `https://github.com/AimableTrague` },
-    { icon: <FaTwitter />, url: `https://x.com/ingagari__` },
+    { icon: <FaGithub />, url: `https://github.com/Aimableuk` },
     {
       icon: <FaLinkedin />,
       url: `https://rw.linkedin.com/in/ukobizaba-aimable-a104122a7`,
