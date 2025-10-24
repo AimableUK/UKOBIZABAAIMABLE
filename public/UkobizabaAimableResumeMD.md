@@ -16,7 +16,7 @@ Full-Stack Developer passionate about building high-performance, user-friendly w
 
 ```
 FRONTEND:
-React JS | Next JS | Javascript | Typescript | Tailwind CSS | MUI | Shad CN
+Figma | React JS | Next JS | Javascript | Typescript | Tailwind CSS | MUI | Shad CN
 
 BACKEND:
 Python | Django | MongoDB | PostgreSQL | MySQL
@@ -84,6 +84,8 @@ https://github.com/AimableUK/Velora
 
 ## Tasty MUNDO - AI Powered Recipe Generator (Under Development)
 
+### React.js
+
 ```
 https://github.com/AimableUK/Tasty_Mundo
 ```
@@ -96,6 +98,8 @@ https://github.com/AimableUK/Tasty_Mundo
 
 ## NIVRA - Weather Forecast App
 
+### React.js
+
 ```
 https://github.com/AimableUK/Nivra
 ```
@@ -106,9 +110,9 @@ https://github.com/AimableUK/Nivra
   highlights. Designed with a clean and intuitive interface, **NIVRA** ensures users can
   quickly access the weather insights they need at a glance.
 
-### ADDITIONALS
+## ADDITIONALS
 
-#### SOFT SKILLS
+### SOFT SKILLS
 
 ```
 Leadership, Strong Communication, Adapting, Problem Solving, On site & Remote Collaboration, Mentoring

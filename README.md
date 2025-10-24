@@ -1,99 +1,140 @@
-# UKOBIZABA Aimable
+# I'm UKOBIZABA Aimable
 
-#### FullStack Software Engineer | Web Technologies
+#### A FullStack Software Engineer in Web Technologies
 
 **HOURS SINCE 4/8/2025** [![wakatime](https://wakatime.com/badge/user/90ec315b-3d97-44e2-9ffa-133815a73fcf.svg)](https://wakatime.com/@90ec315b-3d97-44e2-9ffa-133815a73fcf)
 
-#### @ aimableukobizaba@gmail.com  - kigali, Rwanda
+#### @ aimableukobizaba@gmail.com - kigali, Rwanda
 
 ## SUMMARY
 
 ```
-Full-Stack Developer skilled in building web applications in React JS and DJANGO.
-Passionate about creating high-performance, user-friendly interfaces and continuously
-learning modern web technologies. Strong problem-solving abilities and a proactive
-approach to technical challenges
+Full-Stack Developer passionate about building high-performance, user-friendly web applications and familiar with DevOps practices. Strong problem-solving skills, proactive in tackling technical challenges, and committed to continuously learning modern web technologies
 ```
+
+## SKILLS
+
+```
+FRONTEND:
+Figma | React JS | Next JS | Javascript | Typescript | Tailwind CSS | MUI | Shad CN
+
+BACKEND:
+Python | Django | MongoDB | PostgreSQL | MySQL
+
+DEVOPS | CI/CD & TOOLS:
+Docker | Github Actions | System Design | AWS | GCP
+```
+
+## EDUCATION
+
+#### Bachelor of IT – (SOFTWARE ENGINEERING) - OnGoing
+
 ## PROJECTS
 
+## Malos Haven - Property Management System
 
-## Malos Haven - Property Management System (Under Development)
-
-```
-https://malos-haven.vercel.app/
-```
-
-- A **web-based platform that allows landlords and property managers** to manage
-  multiple **properties**, **units**, and **tenants** efficiently. It includes features
-  for adding and updating properties, tracking unit occupancy, managing tenant
-  information, handling maintenance requests, and viewing property **analytics**
-  in a clear and organized dashboard.
-
-
-## MALOS FLIX – Movie Database Web App (Under Development)
+### React.js + Convex + MUI
 
 ```
-https://malos-flix.vercel.app/
+https://github.com/AimableUK/MalosHaven
 ```
-- Developed a **dynamic movie database application** that fetches and
-    displays movie, series, and anime data using the **OMDB API**. Designed an
-    intuitive **user-friendly UI** with **Tailwind CSS** and implemented **dynamic**
-    **recommendations** based on user searches. Deployed the application on
-    **Vercel** for accessibility.
 
+- A web-based platform that allows property managers to manage multiple properties, units, and tenants efficiently. Itsa role based access System where tenants, assistants, manager have access to the system.
+
+## BRAIN PAGE - Library Management System
+
+### Next.js + Django + Shad CN
+
+```
+https://github.com/AimableUK/Brain_Page_FrontEnd
+https://github.com/AimableUK/Brain_Page_BackEnd
+```
+
+- This is a modern Library Management System built with Next.js and Django, featuring an elegant and intuitive UI formanaging books, members, and borrowing records with ease.
+
+## Class Link - School Management System
+
+### Next.js + Prisma ORM
+
+```
+https://github.com/AimableUK/Class-Link
+```
+
+- Class Link is a modern school management platform that connects teachers, students, and parents in a single digital space. It simplifies how schools manage classes, exams, and student performance through a secure and user-friendly interface.
+
+## Togetha - A Real time space where teams sketch, plan, and share ideas
+
+### Next js + Convex
+
+```
+https://github.com/AimableUK/togetha
+```
+
+- Togetha is a real-time collaborative whiteboard where ideas come to life. Whether you're planning projects, sketching concepts, or organizing thoughts, it offers a clean and intuitive space for teams to work together seamlessly from anywhere.
+
+## Velora - Online E-commerce Store
+
+### Fully Django + Paypal
+
+```
+https://github.com/AimableUK/Velora
+```
+
+- Velora is a sleek and modern e-commerce web app designed for a seamless shopping experience. Built with speed,style, and usability in mind, it lets users browse products, manage carts, and checkout effortlessly through a beautifullycrafted UI.
 
 ## Tasty MUNDO - AI Powered Recipe Generator (Under Development)
 
+### React.js
+
 ```
-link currently not available due to testing Purposes
+https://github.com/AimableUK/Tasty_Mundo
 ```
+
 - **An intelligent recipe generator** that creates personalized meal ideas
   based on **user-provided ingredients**. The platform leverages AI to suggest
   diverse recipes, offering detailed cooking instructions and ingredient breakdowns.
   Crafted with a clean, intuitive design to simplify discovering
   and **cooking exciting dishes**.
 
-
 ## NIVRA - Weather Forecast App
 
+### React.js
+
 ```
-https://nivra.vercel.app/
+https://github.com/AimableUK/Nivra
 ```
+
 - A **modern weather forecasting** platform that provides **realtime and accurate weather**
   updates for any location. It features **location-based** search with autocomplete,
   detailed forecasts for the day and week, and smart recommendations such as daily
   highlights. Designed with a clean and intuitive interface, **NIVRA** ensures users can
   quickly access the weather insights they need at a glance.
-  
 
-## EDUCATION
+## Malos Flix - A movie Streaming Website
 
-#### Bachelor of IT – (SOFTWARE ENGINEERING)  - OnGoing
-
-## SKILLS
+### React.js
 
 ```
-FRONTEND:
-JavaScript, TailwindCSS, ReactJS, HTML/CSS, 
-BACKEND:
-Python, Django, PostgreSQL
-```
-### INTERESTS
-
-#### Web Application Development
-
-```
-Passionate about creating efficient and scalable web applications that with
-React JS and Django Frameworks
+https://github.com/AimableUK/Nivra
 ```
 
-### LANGUAGES
+- A **modern weather forecasting** platform that provides **realtime and accurate weather**
+  updates for any location. It features **location-based** search with autocomplete,
+  detailed forecasts for the day and week, and smart recommendations such as daily
+  highlights. Designed with a clean and intuitive interface, **NIVRA** ensures users can
+  quickly access the weather insights they need at a glance.
 
-#### English Proficient
 
-### HOBBY
+## ADDITIONALS
+
+### SOFT SKILLS
 
 ```
-I find great satisfaction in guiding new developers through the complexities of modern web development.
+Leadership, Strong Communication, Adapting, Problem Solving, On site & Remote Collaboration, Mentoring
 ```
 
+### Interests
+
+```
+Traveling, Fitness, Learning new Skills
+```

@@ -1,16 +1,15 @@
-import React from "react";
 import "boxicons";
-import { SiDjango } from "react-icons/si";
 import { FaPython } from "react-icons/fa";
-import { IoLogoJavascript } from "react-icons/io5";
-import { IoLogoReact } from "react-icons/io5";
+import { IoLogoJavascript, IoLogoReact, IoLogoDocker } from "react-icons/io5";
 import { FaGitAlt } from "react-icons/fa6";
-import { SiGithubactions } from "react-icons/si";
-import { IoLogoDocker } from "react-icons/io5";
-import { SiPostman } from "react-icons/si";
-import { SiPrisma } from "react-icons/si";
+import {
+  SiNextdotjs,
+  SiPostman,
+  SiGithubactions,
+  SiDjango,
+} from "react-icons/si";
+import { FiFigma } from "react-icons/fi";
 import { BiLogoTypescript } from "react-icons/bi";
-import { SiNextdotjs } from "react-icons/si";
 
 const Skills = () => {
   return (
@@ -58,9 +57,7 @@ const Skills = () => {
 
           {/* Tools & Technologies */}
           <div>
-            <h3 className="text-2xl font-bold mb-2">
-              Tools & Technologies
-            </h3>
+            <h3 className="text-2xl font-bold mb-2">Tools & Technologies</h3>
             <div className="flex flex-wrap gap-4 items-center">
               <div className="flex flex-col items-center gap-1">
                 <FaGitAlt className="w-10 h-10" />
@@ -79,8 +76,8 @@ const Skills = () => {
                 <span>Postman</span>
               </div>
               <div className="flex flex-col items-center gap-1">
-                <SiPrisma className="w-10 h-10" />
-                <span>Prisma</span>
+                <FiFigma className="w-10 h-10" />
+                <span>Figma</span>
               </div>
             </div>
           </div>

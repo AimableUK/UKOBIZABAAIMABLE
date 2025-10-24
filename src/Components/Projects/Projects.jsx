@@ -1,60 +1,122 @@
-import React from "react";
-import malosFlix from "../../assets/malosFlix.png";
 import malosHaven from "../../assets/MalosHaven.png";
-import tastyMundo from "../../assets/tastyMundo.png";
+import brainpage from "../../assets/brainpage.png";
+import classlink from "../../assets/classlink.png";
+import togetha from "../../assets/togetha.png";
+import velora from "../../assets/tastyMundo.png";
 import nivra from "../../assets/nivra.png";
+import malosFlix from "../../assets/malosFlix.png";
+import tastyMundo from "../../assets/tastyMundo.png";
 
 const Projects = () => {
   return (
     <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 w-full">
+      {/* malos haven */}
       <div className="cursor-pointer w-full flex flex-col items-start border-2 border-primaryBorder p-3 rounded-md shadow-lg transition-transform duration-300 hover:translate-y-2">
-        <a href="https://malos-flix.vercel.app/" target="_blank">
+        <a href="https://github.com/AimableUK/MalosHaven" target="_blank">
           <img
-            src={malosFlix}
+            src={malosHaven}
             alt="malosFLix Project"
             className="w-full h-auto object-cover border-2 rounded-md border-black"
           />
-          <p className="font-bold">MalosFlix - Movie Database</p>
-          <p className="font-semibold">Visit Website</p>
+          <p className="font-bold">Malos Haven - Property Management System</p>
+          <p className="font-semibold">Visit Docs</p>
         </a>
       </div>
+
+      {/* brain page */}
       <div className="cursor-pointer w-full flex flex-col items-start border-2 border-primaryBorder p-3 rounded-md shadow-lg transition-transform duration-300 hover:translate-y-2">
-        <a href="https://malos-haven.vercel.app/" target="_blank">
+        <a
+          href="https://github.com/AimableUK/Brain_Page_FrontEnd"
+          target="_blank"
+        >
           <img
-            src={malosHaven}
+            src={brainpage}
+            alt="malosFLix Project"
+            className="w-full h-auto object-cover border-2 rounded-md border-black"
+          />
+          <p className="font-bold">BRAIN PAGE - Library Management System</p>
+          <p className="font-semibold">Visit Docs</p>
+        </a>
+      </div>
+
+      {/* class link */}
+      <div className="cursor-pointer w-full flex flex-col items-start border-2 border-primaryBorder p-3 rounded-md shadow-lg transition-transform duration-300 hover:translate-y-2">
+        <a href="https://github.com/AimableUK/Class-Link" target="_blank">
+          <img
+            src={classlink}
+            alt="malosHaven Project"
+            className="w-full h-auto object-cover border-2 rounded-md border-black"
+          />
+          <p className="font-bold">Class Link - School Management System</p>
+          <p className="font-semibold">Visit Docs</p>
+        </a>
+      </div>
+
+      {/* togetha */}
+      <div className="cursor-pointer w-full flex flex-col items-start border-2 border-primaryBorder p-3 rounded-md shadow-lg transition-transform duration-300 hover:translate-y-2">
+        <a href="https://github.com/AimableUK/togetha" target="_blank">
+          <img
+            src={togetha}
             alt="malosHaven Project"
             className="w-full h-auto object-cover border-2 rounded-md border-black"
           />
           <p className="font-bold">
-            Malos Haven - Property Management (Under Development)
+            Togetha - A Real time space where teams sketch, plan, and share
+            ideas
           </p>
-          <p className="font-semibold">Visit Website</p>
+          <p className="font-semibold">Visit Docs</p>
         </a>
       </div>
+
+      {/* velora */}
       <div className="cursor-pointer w-full flex flex-col items-start border-2 border-primaryBorder p-3 rounded-md shadow-lg transition-transform duration-300 hover:translate-y-2">
-        <a href="https://tasty-mundo.vercel.app/" target="_blank">
+        <a href="https://github.com/AimableUK/Velora" target="_blank">
           <img
-            src={tastyMundo}
+            src={velora}
             alt="malosHaven Project"
-            className="w-full h-auto object-cover border-2 rounded-md border-black"
+            className="w-full h-auto object-cover border-2 rounded-md border-black opacity-10"
           />
-          <p className="font-bold">
-            Tasty Mundo - AI Powered Recipes (Under Development)
-          </p>
-          <p className="font-semibold">Visit Website</p>
+          <p className="font-bold">Velora - Online E-commerce Store with Paypal Integration (Under Development)</p>
+          <p className="font-semibold">Visit Docs</p>
         </a>
       </div>
+
+      {/* nivra */}
       <div className="cursor-pointer w-full flex flex-col items-start border-2 border-primaryBorder p-3 rounded-md shadow-lg transition-transform duration-300 hover:translate-y-2">
-        <a href="https://nivra.vercel.app/" target="_blank">
+        <a href="https://github.com/AimableUK/Nivra" target="_blank">
           <img
             src={nivra}
             alt="malosHaven Project"
             className="w-full h-auto object-cover border-2 rounded-md border-black"
           />
-          <p className="font-bold">
-            Nivra - Weather forecast (Under Development)
-          </p>
-          <p className="font-semibold">Visit Website</p>
+          <p className="font-bold">Nivra - Super Intuitive modern Weather forecast</p>
+          <p className="font-semibold">Visit Docs</p>
+        </a>
+      </div>
+
+      {/* malos flix */}
+      <div className="cursor-pointer w-full flex flex-col items-start border-2 border-primaryBorder p-3 rounded-md shadow-lg transition-transform duration-300 hover:translate-y-2">
+        <a href="https://github.com/AimableUK/MalosFlix" target="_blank">
+          <img
+            src={malosFlix}
+            alt="malosHaven Project"
+            className="w-full h-auto object-cover border-2 rounded-md border-black"
+          />
+          <p className="font-bold">Malos Flix - A movie Streaming Website</p>
+          <p className="font-semibold">Visit Docs</p>
+        </a>
+      </div>
+
+      {/* tasty mundo */}
+      <div className="cursor-pointer w-full flex flex-col items-start border-2 border-primaryBorder p-3 rounded-md shadow-lg transition-transform duration-300 hover:translate-y-2">
+        <a href="https://github.com/AimableUK/Tasty_Mundo" target="_blank">
+          <img
+            src={tastyMundo}
+            alt="malosHaven Project"
+            className="w-full h-auto object-cover border-2 rounded-md border-black"
+          />
+          <p className="font-bold">Tasty Mundo - AI Powered Recipes</p>
+          <p className="font-semibold">Visit Docs</p>
         </a>
       </div>
     </div>

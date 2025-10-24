@@ -30,6 +30,11 @@
   transition: all 0.2s ease-in-out;
 }
 
+img {
+  -webkit-user-drag: none;
+  pointer-events: none;
+}
+
 body {
   background-color: var(--body_background);
   color: var(--body_text);
