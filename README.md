@@ -82,7 +82,7 @@ https://github.com/AimableUK/Velora
 
 - Velora is a sleek and modern e-commerce web app designed for a seamless shopping experience. Built with speed,style, and usability in mind, it lets users browse products, manage carts, and checkout effortlessly through a beautifullycrafted UI.
 
-## Tasty MUNDO - AI Powered Recipe Generator (Under Development)
+## Tasty MUNDO - AI Powered Recipe Generator
 
 ### React.js
 
