@@ -33,7 +33,7 @@ Docker | Github Actions | System Design | AWS | GCP
 
 ## Malos Haven - Property Management System
 
-### React.js + Convex + MUI
+### React.js
 
 ```
 https://github.com/AimableUK/MalosHaven
@@ -43,7 +43,7 @@ https://github.com/AimableUK/MalosHaven
 
 ## BRAIN PAGE - Library Management System
 
-### Next.js + Django + Shad CN
+### Next.js + Django
 
 ```
 https://github.com/AimableUK/Brain_Page_FrontEnd
@@ -54,7 +54,7 @@ https://github.com/AimableUK/Brain_Page_BackEnd
 
 ## Class Link - School Management System
 
-### Next.js + Prisma ORM
+### Next.js
 
 ```
 https://github.com/AimableUK/Class-Link
@@ -64,7 +64,7 @@ https://github.com/AimableUK/Class-Link
 
 ## Togetha - A Real time space where teams sketch, plan, and share ideas
 
-### Next js + Convex
+### Next js
 
 ```
 https://github.com/AimableUK/togetha
