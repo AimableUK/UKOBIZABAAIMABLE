@@ -12,14 +12,14 @@ const Projects = () => {
     <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 w-full">
       {/* malos haven */}
       <div className="cursor-pointer w-full flex flex-col items-start border-2 border-primaryBorder p-3 rounded-md shadow-lg transition-transform duration-300 hover:translate-y-2">
-        <a href="https://github.com/AimableUK/MalosHaven" target="_blank">
+        <a href="https://malos-haven.vercel.app/" target="_blank">
           <img
             src={malosHaven}
             alt="malosFLix Project"
             className="w-full h-auto object-cover border-2 rounded-md border-black"
           />
           <p className="font-bold">Malos Haven - Property Management System</p>
-          <p className="font-semibold">Visit Docs</p>
+          <p className="font-semibold">Visit Web</p>
         </a>
       </div>
 
@@ -54,7 +54,7 @@ const Projects = () => {
 
       {/* togetha */}
       <div className="cursor-pointer w-full flex flex-col items-start border-2 border-primaryBorder p-3 rounded-md shadow-lg transition-transform duration-300 hover:translate-y-2">
-        <a href="https://github.com/AimableUK/togetha" target="_blank">
+        <a href="https://togetha-app.vercel.app/" target="_blank">
           <img
             src={togetha}
             alt="malosHaven Project"
@@ -64,7 +64,7 @@ const Projects = () => {
             Togetha - A Real time space where teams sketch, plan, and share
             ideas
           </p>
-          <p className="font-semibold">Visit Docs</p>
+          <p className="font-semibold">Visit Web</p>
         </a>
       </div>
 
@@ -77,47 +77,51 @@ const Projects = () => {
             className="w-full h-auto object-cover border-2 rounded-md border-black opacity-10"
           />
 
-          <p className="font-bold">Velora - Online E-commerce Store with Paypal Integration</p>
+          <p className="font-bold">
+            Velora - Online E-commerce Store with Paypal Integration
+          </p>
           <p className="font-semibold">Visit Docs</p>
         </a>
       </div>
 
       {/* nivra */}
       <div className="cursor-pointer w-full flex flex-col items-start border-2 border-primaryBorder p-3 rounded-md shadow-lg transition-transform duration-300 hover:translate-y-2">
-        <a href="https://github.com/AimableUK/Nivra" target="_blank">
+        <a href="https://nivra.vercel.app/" target="_blank">
           <img
             src={nivra}
             alt="malosHaven Project"
             className="w-full h-auto object-cover border-2 rounded-md border-black"
           />
-          <p className="font-bold">Nivra - Super Intuitive modern Weather forecast</p>
-          <p className="font-semibold">Visit Docs</p>
+          <p className="font-bold">
+            Nivra - Super Intuitive modern Weather forecast
+          </p>
+          <p className="font-semibold">Visit Web</p>
         </a>
       </div>
 
       {/* malos flix */}
       <div className="cursor-pointer w-full flex flex-col items-start border-2 border-primaryBorder p-3 rounded-md shadow-lg transition-transform duration-300 hover:translate-y-2">
-        <a href="https://github.com/AimableUK/MalosFlix" target="_blank">
+        <a href="https://malos-flix.vercel.app/" target="_blank">
           <img
             src={malosFlix}
             alt="malosHaven Project"
             className="w-full h-auto object-cover border-2 rounded-md border-black"
           />
           <p className="font-bold">Malos Flix - A movie Streaming Website</p>
-          <p className="font-semibold">Visit Docs</p>
+          <p className="font-semibold">Visit Web</p>
         </a>
       </div>
 
       {/* tasty mundo */}
       <div className="cursor-pointer w-full flex flex-col items-start border-2 border-primaryBorder p-3 rounded-md shadow-lg transition-transform duration-300 hover:translate-y-2">
-        <a href="https://github.com/AimableUK/Tasty_Mundo" target="_blank">
+        <a href="https://tasty-mundo-ai.vercel.app/" target="_blank">
           <img
             src={tastyMundo}
             alt="malosHaven Project"
             className="w-full h-auto object-cover border-2 rounded-md border-black"
           />
           <p className="font-bold">Tasty Mundo - AI Powered Recipes</p>
-          <p className="font-semibold">Visit Docs</p>
+          <p className="font-semibold">Visit Web</p>
         </a>
       </div>
     </div>
