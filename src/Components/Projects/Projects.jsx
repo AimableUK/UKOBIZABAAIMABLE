@@ -26,7 +26,7 @@ const Projects = () => {
       {/* brain page */}
       <div className="cursor-pointer w-full flex flex-col items-start border-2 border-primaryBorder p-3 rounded-md shadow-lg transition-transform duration-300 hover:translate-y-2">
         <a
-          href="https://github.com/AimableUK/Brain_Page_FrontEnd"
+          href="https://brain-page.vercel.app/"
           target="_blank"
         >
           <img
@@ -35,7 +35,7 @@ const Projects = () => {
             className="w-full h-auto object-cover border-2 rounded-md border-black"
           />
           <p className="font-bold">BRAIN PAGE - Library Management System</p>
-          <p className="font-semibold">Visit Docs</p>
+          <p className="font-semibold">Visit Web</p>
         </a>
       </div>
 

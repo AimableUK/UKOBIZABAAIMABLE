@@ -1,16 +1,16 @@
-import { Link } from "react-router-dom";
-
-import { FaPython } from "react-icons/fa";
-import { IoLogoJavascript } from "react-icons/io5";
-import { SiDjango } from "react-icons/si";
-import { IoLogoReact } from "react-icons/io5";
-import { FaGitAlt } from "react-icons/fa6";
-import { SiGithubactions } from "react-icons/si";
-import { IoLogoDocker } from "react-icons/io5";
-import { SiPostman } from "react-icons/si";
-import { SiPrisma } from "react-icons/si";
-import { BiLogoTypescript } from "react-icons/bi";
-import { SiNextdotjs } from "react-icons/si";
+import { FaPython, FaAws, FaFigma } from "react-icons/fa";
+import { IoLogoJavascript, IoLogoNodejs, IoLogoDocker } from "react-icons/io5";
+import {
+  SiDjango,
+  SiGithubactions,
+  SiNextdotjs,
+  SiExpress,
+  SiGooglecloud,
+  SiMui,
+} from "react-icons/si";
+import { BiLogoTypescript, BiLogoPostgresql } from "react-icons/bi";
+import { RiTailwindCssFill } from "react-icons/ri";
+import { SiShadcnui, SiMongodb, SiMysql } from "react-icons/si";
 
 const About = () => {
   return (
@@ -25,7 +25,8 @@ const About = () => {
 
         {/* Description */}
         <p className="text-lg mb-6">
-          I'm a passionate <strong>Full-Stack Software Engineer</strong> who
+          I'm a passionate{" "}
+          <strong>AI Enthusiast & Full-Stack Software Engineer</strong> who
           enjoys building <strong>modern, scalable applications</strong>. I
           focus on creating <strong>clean architectures</strong> and delivering
           <strong> seamless user experiences</strong> with reliable performance.
@@ -52,50 +53,83 @@ const About = () => {
             </div>
           </div>
 
-          {/* Frameworks */}
+          {/* FrontEnd */}
           <div>
-            <h3 className="text-2xl font-semibold mb-2">Frameworks</h3>
+            <h3 className="text-2xl font-semibold mb-2">FrontEnd Skills</h3>
+            <div className="flex flex-wrap gap-4 items-center">
+              <div className="flex flex-col items-center gap-1">
+                <SiNextdotjs className="w-10 h-10" />
+                <span>Next JS</span>
+              </div>
+              <div className="flex flex-col items-center gap-1">
+                <FaFigma className="w-10 h-10" />
+                <span>Figma</span>
+              </div>
+              <div className="flex flex-col items-center gap-1">
+                <RiTailwindCssFill className="w-10 h-10" />
+                <span>TailwindCss</span>
+              </div>
+              <div className="flex flex-col items-center gap-1">
+                <SiMui className="w-10 h-10" />
+                <span>MUI</span>
+              </div>
+              <div className="flex flex-col items-center gap-1">
+                <SiShadcnui className="w-10 h-10" />
+                <span>ShadCN</span>
+              </div>
+            </div>
+          </div>
+
+          {/* Backend */}
+          <div>
+            <h3 className="text-2xl font-semibold mb-2">Backend Skills</h3>
             <div className="flex flex-wrap gap-4 items-center">
               <div className="flex flex-col items-center gap-1">
                 <SiDjango className="w-10 h-10" />
                 <span>Django</span>
               </div>
               <div className="flex flex-col items-center gap-1">
-                <IoLogoReact className="w-10 h-10" />
-                <span>React.js</span>
+                <IoLogoNodejs className="w-10 h-10" />
+                <span>Node</span>
               </div>
               <div className="flex flex-col items-center gap-1">
-                <SiNextdotjs className="w-10 h-10" />
-                <span>Next.js</span>
+                <SiExpress className="w-10 h-10" />
+                <span>Express</span>
+              </div>
+              <div className="flex flex-col items-center gap-1">
+                <SiMongodb className="w-10 h-10" />
+                <span>MongoDB</span>
+              </div>
+              <div className="flex flex-col items-center gap-1">
+                <BiLogoPostgresql className="w-10 h-10" />
+                <span>PostgreSQL</span>
+              </div>
+              <div className="flex flex-col items-center gap-1">
+                <SiMysql className="w-10 h-10" />
+                <span>MySQL</span>
               </div>
             </div>
           </div>
 
           {/* Tools & Technologies */}
           <div>
-            <h3 className="text-2xl font-semibold mb-2">
-              Tools & Technologies
-            </h3>
+            <h3 className="text-2xl font-semibold mb-2">DevOps | CI/CD</h3>
             <div className="flex flex-wrap gap-4 items-center">
               <div className="flex flex-col items-center gap-1">
-                <FaGitAlt className="w-10 h-10" />
-                <span>Git</span>
+                <IoLogoDocker className="w-10 h-10" />
+                <span>Docker</span>
               </div>
               <div className="flex flex-col items-center gap-1">
                 <SiGithubactions className="w-10 h-10" />
                 <span>GitHub Actions</span>
               </div>
               <div className="flex flex-col items-center gap-1">
-                <IoLogoDocker className="w-10 h-10" />
-                <span>Docker</span>
+                <FaAws className="w-10 h-10" />
+                <span>AWS</span>
               </div>
               <div className="flex flex-col items-center gap-1">
-                <SiPostman className="w-10 h-10" />
-                <span>Postman</span>
-              </div>
-              <div className="flex flex-col items-center gap-1">
-                <SiPrisma className="w-10 h-10" />
-                <span>Prisma</span>
+                <SiGooglecloud className="w-10 h-10" />
+                <span>GCP</span>
               </div>
             </div>
           </div>
