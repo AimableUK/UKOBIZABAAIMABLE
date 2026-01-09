@@ -90,11 +90,11 @@ const About = () => {
               </div>
               <div className="flex flex-col items-center gap-1">
                 <IoLogoNodejs className="w-10 h-10" />
-                <span>Node</span>
+                <span>Node JS</span>
               </div>
               <div className="flex flex-col items-center gap-1">
                 <SiExpress className="w-10 h-10" />
-                <span>Express</span>
+                <span>Express JS</span>
               </div>
               <div className="flex flex-col items-center gap-1">
                 <SiMongodb className="w-10 h-10" />
