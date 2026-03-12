@@ -7,7 +7,7 @@ import {
   FaEnvelope,
   FaGithub,
 } from "react-icons/fa";
-import AimableImg from "../../assets/AimableImg.jpg";
+import AimableImg from "../../assets/AimableImg.png";
 import { Link } from "react-router-dom";
 
 const Menu = () => {
