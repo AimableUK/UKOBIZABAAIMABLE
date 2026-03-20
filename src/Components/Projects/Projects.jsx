@@ -6,10 +6,54 @@ import velora from "../../assets/noimg.jpg";
 import nivra from "../../assets/nivra.png";
 import malosFlix from "../../assets/malosFlix.png";
 import tastyMundo from "../../assets/tastyMundo.png";
+import bija from "../../assets/Bija.png";
+import malos from "../../assets/Malos.png";
+import monet from "../../assets/Monet.png";
 
 const Projects = () => {
   return (
     <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 w-full">
+      {/* MONET */}
+      <div className="cursor-pointer w-full flex flex-col items-start border-2 border-primaryBorder p-3 rounded-md shadow-lg transition-transform duration-300 hover:translate-y-2">
+        <a href="https://monet-app.vercel.app" target="_blank">
+          <img
+            src={monet}
+            alt="malosHaven Project"
+            className="w-full h-auto object-cover border-2 rounded-md border-black"
+          />
+          <p className="font-bold">MONET - AI Website Builder</p>
+          <p className="font-semibold">Visit Web</p>
+        </a>
+      </div>
+
+      {/* BIJA */}
+      <div className="cursor-pointer w-full flex flex-col items-start border-2 border-primaryBorder p-3 rounded-md shadow-lg transition-transform duration-300 hover:translate-y-2">
+        <a href="https://bija-group.vercel.app" target="_blank">
+          <img
+            src={bija}
+            alt="malosHaven Project"
+            className="w-full h-auto object-cover border-2 rounded-md border-black"
+          />
+          <p className="font-bold">BIJA - Digital Agency</p>
+          <p className="font-semibold">Visit Web</p>
+        </a>
+      </div>
+
+      {/* MALOS Technologies */}
+      <div className="cursor-pointer w-full flex flex-col items-start border-2 border-primaryBorder p-3 rounded-md shadow-lg transition-transform duration-300 hover:translate-y-2">
+        <a href="https://malos-technologies.vercel.app" target="_blank">
+          <img
+            src={malos}
+            alt="malosHaven Project"
+            className="w-full h-auto object-cover border-2 rounded-md border-black"
+          />
+          <p className="font-bold">
+            Malos Technologies - Engineering Digital Future
+          </p>
+          <p className="font-semibold">Visit Web</p>
+        </a>
+      </div>
+
       {/* malos haven */}
       <div className="cursor-pointer w-full flex flex-col items-start border-2 border-primaryBorder p-3 rounded-md shadow-lg transition-transform duration-300 hover:translate-y-2">
         <a href="https://malos-haven.vercel.app/" target="_blank">
@@ -25,10 +69,7 @@ const Projects = () => {
 
       {/* brain page */}
       <div className="cursor-pointer w-full flex flex-col items-start border-2 border-primaryBorder p-3 rounded-md shadow-lg transition-transform duration-300 hover:translate-y-2">
-        <a
-          href="https://brain-page.vercel.app/"
-          target="_blank"
-        >
+        <a href="https://brain-page.vercel.app/" target="_blank">
           <img
             src={brainpage}
             alt="malosFLix Project"

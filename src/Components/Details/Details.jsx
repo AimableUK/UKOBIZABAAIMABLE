@@ -36,7 +36,7 @@ const Menu = () => {
           />
           <h3 className="font-bold text-2xl mt-10">UKOBIZABA Aimable</h3>
           <h5 className="role border border-primaryBorder rounded-sm bg-primaryBody p-1 font-semibold">
-            AI & Full-Stack Developer
+            AI Enthusiast & Full-Stack Developer
           </h5>
         </div>
 

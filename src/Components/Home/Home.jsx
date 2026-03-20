@@ -1,4 +1,3 @@
-import React from "react";
 import { Link } from "react-router-dom";
 
 const Home = () => {
@@ -8,11 +7,11 @@ const Home = () => {
         Welcome to My Portfolio
       </h1>
       <p className="text-lg md:text-xl max-w-xl mb-6 animate-slide-up">
-        Hi, I'm Ukobizaba Aimable, AI & Full-Stack Developer passionate
-        about building high-performance, user-friendly web applications and
-        familiar with DevOps practices. Strong problem-solving skills, proactive
-        in tackling technical challenges, and committed to continuously learning
-        modern web technologies
+        Hi, I'm Ukobizaba Aimable, AI Enthusiast & Full-Stack Developer
+        passionate about building high-performance, user-friendly web
+        applications and familiar with DevOps practices. Strong problem-solving
+        skills, proactive in tackling technical challenges, and committed to
+        continuously learning modern web technologies
       </p>
 
       <div className="flex gap-4">
