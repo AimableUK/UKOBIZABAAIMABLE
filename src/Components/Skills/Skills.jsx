@@ -1,15 +1,24 @@
-import "boxicons";
-import { FaPython } from "react-icons/fa";
-import { IoLogoJavascript, IoLogoReact, IoLogoDocker } from "react-icons/io5";
-import { FaGitAlt } from "react-icons/fa6";
+import { FaPython, FaNodeJs, FaAws } from "react-icons/fa";
+import { IoLogoJavascript } from "react-icons/io5";
 import {
   SiNextdotjs,
-  SiPostman,
   SiGithubactions,
   SiDjango,
+  SiMui,
+  SiShadcnui,
+  SiExpress,
+  SiSocketdotio,
+  SiMongodb,
+  SiMysql,
+  SiRedis,
+  SiDocker,
 } from "react-icons/si";
 import { FiFigma } from "react-icons/fi";
-import { BiLogoTypescript } from "react-icons/bi";
+import { BiLogoTypescript, BiLogoPostgresql } from "react-icons/bi";
+import { RiTailwindCssFill } from "react-icons/ri";
+import { DiGoogleCloudPlatform } from "react-icons/di";
+import { GrDeploy } from "react-icons/gr";
+import { GiChargingBull } from "react-icons/gi";
 
 const Skills = () => {
   return (
@@ -36,48 +45,106 @@ const Skills = () => {
             </div>
           </div>
 
-          {/* Frameworks */}
+          {/* frontend */}
           <div>
-            <h3 className="text-2xl font-bold mb-2">Frameworks</h3>
+            <h3 className="text-2xl font-bold mb-2">FrontEnd & UI/UX</h3>
+            <div className="flex flex-wrap gap-4 items-center">
+              <div className="flex flex-col items-center gap-1">
+                <SiNextdotjs className="w-10 h-10" />
+                <span>Next.js</span>
+              </div>
+              <div className="flex flex-col items-center gap-1">
+                <RiTailwindCssFill className="w-10 h-10" />
+                <span>Tailwind CSS</span>
+              </div>
+              <div className="flex flex-col items-center gap-1">
+                <SiMui className="w-10 h-10" />
+                <span>MUI</span>
+              </div>
+              <div className="flex flex-col items-center gap-1">
+                <SiShadcnui className="w-10 h-10" />
+                <span>ShadCN</span>
+              </div>
+              <div className="flex flex-col items-center gap-1">
+                <FiFigma className="w-8 h-8" />
+                <span>Figma</span>
+              </div>
+            </div>
+          </div>
+
+          {/* backend */}
+          <div>
+            <h3 className="text-2xl font-bold mb-2">BackEnd</h3>
             <div className="flex flex-wrap gap-4 items-center">
               <div className="flex flex-col items-center gap-1">
                 <SiDjango className="w-10 h-10" />
                 <span>Django</span>
               </div>
               <div className="flex flex-col items-center gap-1">
-                <IoLogoReact className="w-10 h-10" />
-                <span>React.js</span>
+                <FaNodeJs className="w-10 h-10" />
+                <span>Node.js</span>
               </div>
               <div className="flex flex-col items-center gap-1">
-                <SiNextdotjs className="w-10 h-10" />
-                <span>Next.js</span>
+                <SiExpress className="w-10 h-10" />
+                <span>Express.js</span>
+              </div>
+              <div className="flex flex-col items-center gap-1">
+                <SiSocketdotio className="w-10 h-10" />
+                <span>Socket.io</span>
+              </div>
+              <div className="flex flex-col items-center gap-1">
+                <GiChargingBull className="w-11 h-11" />
+                <span>BullMQ</span>
               </div>
             </div>
           </div>
 
-          {/* Tools & Technologies */}
+          {/* databases */}
           <div>
-            <h3 className="text-2xl font-bold mb-2">Tools & Technologies</h3>
+            <h3 className="text-2xl font-bold mb-2">Databases</h3>
             <div className="flex flex-wrap gap-4 items-center">
               <div className="flex flex-col items-center gap-1">
-                <FaGitAlt className="w-10 h-10" />
-                <span>Git</span>
+                <SiMongodb className="w-10 h-10" />
+                <span>MongoDB</span>
+              </div>
+              <div className="flex flex-col items-center gap-1">
+                <BiLogoPostgresql className="w-10 h-10" />
+                <span>PostgreSQL</span>
+              </div>
+              <div className="flex flex-col items-center gap-1">
+                <SiMysql className="w-10 h-10" />
+                <span>MySQL</span>
+              </div>
+              <div className="flex flex-col items-center gap-1">
+                <SiRedis className="w-9 h-9" />
+                <span>Redis</span>
+              </div>
+            </div>
+          </div>
+
+          {/* INFRASTRUCTURE / DEVOPS */}
+          <div>
+            <h3 className="text-2xl font-bold mb-2">INFRASTRUCTURE / DEVOPS</h3>
+            <div className="flex flex-wrap gap-4 items-center">
+              <div className="flex flex-col items-center gap-1">
+                <SiDocker className="w-10 h-10" />
+                <span>Docker</span>
               </div>
               <div className="flex flex-col items-center gap-1">
                 <SiGithubactions className="w-10 h-10" />
                 <span>GitHub Actions</span>
               </div>
               <div className="flex flex-col items-center gap-1">
-                <IoLogoDocker className="w-10 h-10" />
-                <span>Docker</span>
+                <FaAws className="w-10 h-10" />
+                <span>AWS</span>
               </div>
               <div className="flex flex-col items-center gap-1">
-                <SiPostman className="w-10 h-10" />
-                <span>Postman</span>
+                <DiGoogleCloudPlatform className="w-10 h-10" />
+                <span>GCP</span>
               </div>
               <div className="flex flex-col items-center gap-1">
-                <FiFigma className="w-10 h-10" />
-                <span>Figma</span>
+                <GrDeploy className="w-7 h-7" />
+                <span>CI/CD</span>
               </div>
             </div>
           </div>

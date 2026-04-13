@@ -1,8 +1,6 @@
-import React from "react";
 import {
   FaLocationArrow,
   FaPhone,
-  FaTwitter,
   FaLinkedin,
   FaEnvelope,
   FaGithub,
@@ -21,9 +19,13 @@ const Menu = () => {
   ];
 
   const MySocials2 = [
-    { icon: <FaPhone />, detail: "+250 783309468" },
-    { icon: <FaEnvelope />, detail: `aimableukobizaba@gmail.com` },
-    { icon: <FaLocationArrow />, detail: `Kigali, Rwanda` },
+    { icon: <FaPhone />, detail: "+250 783309468", action: "tel:250783309468" },
+    {
+      icon: <FaEnvelope />,
+      detail: `aimableukobizaba@gmail.com`,
+      action: "mailto:aimableukobizaba@gmail.com",
+    },
+    { icon: <FaLocationArrow />, detail: `Kigali, Rwanda`, action: "#" },
   ];
 
   return (
@@ -56,10 +58,12 @@ const Menu = () => {
         <div className="detail-box flex flex-col bg-primaryDetail rounded-md">
           {MySocials2.map((option, index) => (
             <div key={index} className="m-2 ">
-              <div className="flex flex-row items-center">
-                <p className="bg-gray-300 p-2 rounded">{option.icon}</p>
-                <p className="ml-3">{option.detail}</p>
-              </div>
+              <a href={option.action}>
+                <div className="flex flex-row items-center whitespace-nowrap">
+                  <p className="bg-gray-300 p-2 rounded w-fit">{option.icon}</p>
+                  <p className="ml-3">{option.detail}</p>
+                </div>
+              </a>
               <hr className="border mt-1" />
             </div>
           ))}

@@ -9,6 +9,7 @@ import tastyMundo from "../../assets/tastyMundo.png";
 import bija from "../../assets/Bija.png";
 import malos from "../../assets/Malos.png";
 import monet from "../../assets/Monet.png";
+import parkAfrica from "../../assets/parkAfrica.png";
 
 const Projects = () => {
   return (
@@ -22,6 +23,19 @@ const Projects = () => {
             className="w-full h-auto object-cover border-2 rounded-md border-black"
           />
           <p className="font-bold">MONET - AI Website Builder</p>
+          <p className="font-semibold">Visit Web</p>
+        </a>
+      </div>
+
+      {/* parkAfrica */}
+      <div className="cursor-pointer w-full flex flex-col items-start border-2 border-primaryBorder p-3 rounded-md shadow-lg transition-transform duration-300 hover:translate-y-2">
+        <a href="https://park-africa.vercel.app" target="_blank">
+          <img
+            src={parkAfrica}
+            alt="parkAfrica Project"
+            className="w-full h-auto object-cover border-2 rounded-md border-black"
+          />
+          <p className="font-bold">ParkAfrica - Smart Parking Management System</p>
           <p className="font-semibold">Visit Web</p>
         </a>
       </div>
