@@ -18,17 +18,26 @@ learning modern web technologies
 ## SKILLS
 
 ```
-LANGAUGES:
-Python | Javascript | TypeScript
+LANGUAGES:
+Python | JavaScript | TypeScript | Go
 
-FRONTEND:
-Next JS Figma | Tailwind CSS | MUI | Shad CN
+FRONTEND & UI/UX:
+Next.js | Tailwind CSS | MUI | ShadCN | Figma
 
 BACKEND:
-Django | Node JS | Express JS | MongoDB | PostgreSQL | MySQL
+Node.js | Express.js | Django | Gin | Socket.io | BullMQ
 
-DEVOPS | CI/CD:
-Docker | Github Actions | System Design | AWS | GCP
+DATABASES:
+Redis | MongoDB | PostgreSQL | MySQL | Oracle (PL/SQL)
+
+INFRASTRUCTURE / DEVOPS:
+Docker | GitHub Actions | AWS | GCP | CI/CD
+
+Data & AI:
+Machine Learning
+
+OTHER:
+BullMQ | System Design | Git
 ```
 
 ###### Enjoy!!!!
