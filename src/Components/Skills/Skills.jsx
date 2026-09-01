@@ -12,7 +12,9 @@ import {
   SiMysql,
   SiRedis,
   SiDocker,
+  SiRabbitmq,
 } from "react-icons/si";
+import { FaGolang } from "react-icons/fa6";
 import { FiFigma } from "react-icons/fi";
 import { BiLogoTypescript, BiLogoPostgresql } from "react-icons/bi";
 import { RiTailwindCssFill } from "react-icons/ri";
@@ -35,12 +37,12 @@ const Skills = () => {
                 <span>Python</span>
               </div>
               <div className="flex flex-col items-center gap-1">
-                <IoLogoJavascript className="w-10 h-10" />
-                <span>JavaScript</span>
-              </div>
-              <div className="flex flex-col items-center gap-1">
                 <BiLogoTypescript className="w-10 h-10" />
                 <span>TypeScript</span>
+              </div>
+              <div className="flex flex-col items-center gap-1">
+                <FaGolang className="w-10 h-10" />
+                <span>Golang</span>
               </div>
             </div>
           </div>
@@ -95,6 +97,10 @@ const Skills = () => {
               <div className="flex flex-col items-center gap-1">
                 <GiChargingBull className="w-11 h-11" />
                 <span>BullMQ</span>
+              </div>
+              <div className="flex flex-col items-center gap-1">
+                <SiRabbitmq className="w-11 h-11" />
+                <span>RabbitMQ</span>
               </div>
             </div>
           </div>

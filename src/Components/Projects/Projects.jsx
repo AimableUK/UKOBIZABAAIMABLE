@@ -1,4 +1,4 @@
-import malosHaven from "../../assets/MalosHaven.png";
+import malosHaven from "../../assets/malosHaven.png";
 import brainpage from "../../assets/brainpage.png";
 import classlink from "../../assets/classlink.png";
 import togetha from "../../assets/togetha.png";
@@ -14,6 +14,60 @@ import parkAfrica from "../../assets/parkAfrica.png";
 const Projects = () => {
   return (
     <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 w-full">
+      {/* Recital */}
+      <div className="cursor-pointer w-full flex flex-col items-start border-2 border-primaryBorder p-3 rounded-md shadow-lg transition-transform duration-300 hover:translate-y-2">
+        <a href="https://recital-app.vercel.app" target="_blank">
+          <img
+            src={monet}
+            alt="Recital Project"
+            className="w-full h-auto object-cover border-2 rounded-md border-black"
+          />
+          <p className="font-bold">
+            Recital - Personal Reading & Speech Studio
+          </p>
+          <p className="font-semibold">Visit Web</p>
+        </a>
+      </div>
+
+      {/* Inzu Connect */}
+      <div className="cursor-pointer w-full flex flex-col items-start border-2 border-primaryBorder p-3 rounded-md shadow-lg transition-transform duration-300 hover:translate-y-2">
+        <a href="https://inzuconnect.com" target="_blank">
+          <img
+            src={parkAfrica}
+            alt="Inzu Connect Project"
+            className="w-full h-auto object-cover border-2 rounded-md border-black"
+          />
+          <p className="font-bold">Inzu Connect - Property Management System</p>
+          <p className="font-semibold">Visit Web</p>
+        </a>
+      </div>
+
+      {/* Simba Rwanda */}
+      <div className="cursor-pointer w-full flex flex-col items-start border-2 border-primaryBorder p-3 rounded-md shadow-lg transition-transform duration-300 hover:translate-y-2">
+        <a href="https://simba-rwanda.vercel.app" target="_blank">
+          <img
+            src={bija}
+            alt="Simba supermarket Project"
+            className="w-full h-auto object-cover border-2 rounded-md border-black"
+          />
+          <p className="font-bold">Simba Supermarket Website reimagined</p>
+          <p className="font-semibold">Visit Web</p>
+        </a>
+      </div>
+
+      {/* Yanibi */}
+      <div className="cursor-pointer w-full flex flex-col items-start border-2 border-primaryBorder p-3 rounded-md shadow-lg transition-transform duration-300 hover:translate-y-2">
+        <a href="https://yanibi.vercel.app" target="_blank">
+          <img
+            src={malos}
+            alt="Yanibi Artist Project"
+            className="w-full h-auto object-cover border-2 rounded-md border-black"
+          />
+          <p className="font-bold">Yanibi - An Artist Website</p>
+          <p className="font-semibold">Visit Web</p>
+        </a>
+      </div>
+
       {/* MONET */}
       <div className="cursor-pointer w-full flex flex-col items-start border-2 border-primaryBorder p-3 rounded-md shadow-lg transition-transform duration-300 hover:translate-y-2">
         <a href="https://monet-app.vercel.app" target="_blank">
@@ -35,7 +89,9 @@ const Projects = () => {
             alt="parkAfrica Project"
             className="w-full h-auto object-cover border-2 rounded-md border-black"
           />
-          <p className="font-bold">ParkAfrica - Smart Parking Management System</p>
+          <p className="font-bold">
+            ParkAfrica - Smart Parking Management System
+          </p>
           <p className="font-semibold">Visit Web</p>
         </a>
       </div>
