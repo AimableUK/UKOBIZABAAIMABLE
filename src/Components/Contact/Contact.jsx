@@ -64,8 +64,8 @@ const Contact = () => {
                   type="text"
                   id="name"
                   name="name"
-                  placeholder="Please enter your name"
-                  className="w-full border-2 border-primaryBorder rounded p-1 outline-none text-primaryText font-semibold"
+                  placeholder="Enter your name"
+                  className="w-full border-2 border-primaryBorder rounded p-1 outline-none text-primaryText font-semibold placeholder:font-normal"
                 />
                 <ErrorMessage
                   id="name"
@@ -83,8 +83,8 @@ const Contact = () => {
                   type="text"
                   id="email"
                   name="email"
-                  placeholder="Please enter your email"
-                  className="w-full border-2 border-primaryBorder rounded p-1 outline-none text-primaryText font-semibold"
+                  placeholder="Enter your email"
+                  className="w-full border-2 border-primaryBorder rounded p-1 outline-none text-primaryText font-semibold placeholder:font-normal"
                 />
                 <ErrorMessage
                   id="email"
@@ -102,8 +102,8 @@ const Contact = () => {
                   as="textarea"
                   id="message"
                   name="message"
-                  placeholder="Please enter your message"
-                  className="w-full border-2 border-primaryBorder rounded p-1 outline-none text-primaryText font-semibold"
+                  placeholder="Enter your message"
+                  className="w-full border-2 border-primaryBorder rounded p-1 outline-none text-primaryText font-semibold placeholder:font-normal"
                 />
                 <ErrorMessage
                   id="message"

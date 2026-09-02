@@ -17,7 +17,10 @@ const PageTitleUpdater = () => {
         title = 'About Us';
     } else if (location.pathname === '/skills') {
         title = 'My Skills';
-    } else if (location.pathname === '/resume') {
+    } else if (location.pathname === '/certificates') {
+        title = 'My Certificates';
+    }
+    else if (location.pathname === '/resume') {
         title = 'My Resume';
     } else {
         title = '404 Page Not Found'
