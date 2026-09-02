@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from "react";
+import { useEffect, useRef } from "react";
 import { Outlet, useLocation } from "react-router-dom";
 import Details from "./Components/Details/Details";
 import Menu from "./Components/Menu/Menu";
@@ -9,7 +9,7 @@ import { Analytics } from "@vercel/analytics/react";
 const Layout = () => {
   const location = useLocation();
   const isNoScroll =
-    location.pathname === "/projects" || location.pathname === "/certificates";
+    location.pathname === "/projects" || location.pathname === "/certificates" || location.pathname === "/skills";
 
   const outletRef = useRef(null);
 

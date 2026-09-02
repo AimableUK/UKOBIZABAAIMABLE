@@ -63,7 +63,7 @@ const CERTIFICATES = [
   },
   {
     id: "cert-7",
-    title: "Statistics",
+    title: "National Statistics",
     src: statistics,
     filename: "statistics-certificate.jpg",
     extension: ".jpg",

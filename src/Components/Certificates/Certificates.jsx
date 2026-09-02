@@ -104,14 +104,6 @@ const Certificates = () => {
                       </p>
                     </div>
                   )}
-                  <div className="absolute inset-x-0 bottom-0 flex items-center justify-between bg-linear-to-t from-black/70 to-transparent p-4 text-white">
-                    <span className="border border-white/20 bg-[var(--body_primaryCard)]/10 px-2 py-1 rounded text-xs font-medium">
-                      {certificate.label}
-                    </span>
-                    <span className="text-xs uppercase tracking-[0.18em] text-white/75">
-                      {certificate.extension.slice(1)}
-                    </span>
-                  </div>
                 </div>
 
                 <div className="space-y-3 p-5">
@@ -132,12 +124,18 @@ const Certificates = () => {
       {selectedCertificate && (
         <div
           className="fixed inset-0 z-50 flex items-center justify-center p-4"
-          style={{ backgroundColor: 'var(--body_overlay)', backdropFilter: 'blur(8px)' }}
+          style={{
+            backgroundColor: "var(--body_overlay)",
+            backdropFilter: "blur(8px)",
+          }}
           onClick={() => setSelectedId(null)}
         >
           <div
             className="flex max-h-[90vh] w-full max-w-5xl flex-col overflow-hidden rounded-[2rem] shadow-2xl"
-            style={{ border: '1px solid var(--body_primaryBorder)', backgroundColor: 'var(--body_primaryCard)' }}
+            style={{
+              border: "1px solid var(--body_primaryBorder)",
+              backgroundColor: "var(--body_primaryCard)",
+            }}
             onClick={(e) => e.stopPropagation()}
           >
             <div className="flex items-center justify-between gap-4 border-b border-primaryBorder bg-[var(--body_primaryCard)] px-5 py-4">
@@ -202,7 +200,10 @@ const Certificates = () => {
                   type="button"
                   onClick={goToPrevious}
                   className="absolute left-4 top-1/2 -translate-y-1/2 rounded-full border border-primaryBorder bg-[var(--body_primaryCard)] p-3 text-[var(--body_text)] shadow-lg hover:bg-[var(--body_primaryDetail)]"
-                  style={{ backgroundColor: 'var(--body_primaryCard)', color: 'var(--body_text)' }}
+                  style={{
+                    backgroundColor: "var(--body_primaryCard)",
+                    color: "var(--body_text)",
+                  }}
                   aria-label="Previous certificate"
                 >
                   <FiChevronLeft className="size-6" />
@@ -214,7 +215,10 @@ const Certificates = () => {
                   type="button"
                   onClick={goToNext}
                   className="absolute right-4 top-1/2 -translate-y-1/2 rounded-full border border-primaryBorder bg-[var(--body_primaryCard)] p-3 text-[var(--body_text)] shadow-lg hover:bg-[var(--body_primaryDetail)]"
-                  style={{ backgroundColor: 'var(--body_primaryCard)', color: 'var(--body_text)' }}
+                  style={{
+                    backgroundColor: "var(--body_primaryCard)",
+                    color: "var(--body_text)",
+                  }}
                   aria-label="Next certificate"
                 >
                   <FiChevronRight className="size-6" />
