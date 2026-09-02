@@ -75,7 +75,7 @@ const Certificates = () => {
   }
 
   return (
-    <div className="flex flex-col gap-3 w-full max-h-50 overflow-auto">
+    <div className="flex flex-col gap-3 w-full max-h-50">
       <h3 className="self-center text-2xl font-bold">MY CERTIFICATES</h3>
       <div className="flex flex-col justify-start items-start">
         <div className="grid gap-5 sm:grid-cols-2 xl:grid-cols-3 w-full">

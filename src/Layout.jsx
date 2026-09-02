@@ -8,7 +8,8 @@ import { Analytics } from "@vercel/analytics/react";
 
 const Layout = () => {
   const location = useLocation();
-  const isProjects = location.pathname === "/projects";
+  const isNoScroll =
+    location.pathname === "/projects" || location.pathname === "/certificates";
 
   const outletRef = useRef(null);
 
@@ -28,7 +29,7 @@ const Layout = () => {
         <section
           ref={outletRef}
           className={`mystyle w-fit flex flex-col items-center md:w-2/4 mx-auto p-2 text-gray-800 border-primaryBorder bg-primaryCard border-2 rounded-md bg-white
-          ${isProjects ? "overflow-hidden overflow-y-auto max-h-[75vh] scrollbar-hide" : ""}`}
+          ${isNoScroll ? "overflow-hidden overflow-y-auto max-h-[75vh] scrollbar-hide" : ""}`}
         >
           <div className="mb-1 self-end">
             <DarkMode />
@@ -44,7 +45,7 @@ const Layout = () => {
           <Details />
           <section
             className={`mystyle min-w-48 flex flex-col items-center w-2/4 mx-auto p-6 text-gray-800 border-primaryBorder bg-primaryCard border-2 rounded-md bg-white
-            ${isProjects ? "overflow-hidden overflow-y-auto max-h-[75vh] scrollbar-hide" : ""}`}
+            ${isNoScroll ? "overflow-hidden overflow-y-auto max-h-[75vh] scrollbar-hide" : ""}`}
           >
             <div className="mb-1 self-end">
               <DarkMode />
@@ -60,7 +61,7 @@ const Layout = () => {
         <Details />
         <section
           className={`mystyle min-w-48 flex flex-col items-center w-2/4 mx-auto p-6 text-gray-800 border-primaryBorder bg-primaryCard border-2 rounded-md bg-white
-          ${isProjects ? "overflow-hidden overflow-y-auto max-h-[75vh] scrollbar-hide" : ""}`}
+          ${isNoScroll ? "overflow-hidden overflow-y-auto max-h-[75vh] scrollbar-hide" : ""}`}
         >
           <div className="mb-1 self-end">
             <DarkMode />
