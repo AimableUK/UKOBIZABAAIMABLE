@@ -10,6 +10,10 @@ import bija from "../../assets/Bija.png";
 import malos from "../../assets/Malos.png";
 import monet from "../../assets/Monet.png";
 import parkAfrica from "../../assets/parkAfrica.png";
+import recital from "../../assets/recital.png";
+import inzuconnect from "../../assets/inzuconnect.png";
+import simba from "../../assets/simba.png";
+import yanibi from "../../assets/yanibi.png";
 
 const Projects = () => {
   return (
@@ -18,7 +22,7 @@ const Projects = () => {
       <div className="cursor-pointer w-full flex flex-col items-start border-2 border-primaryBorder p-3 rounded-md shadow-lg transition-transform duration-300 hover:translate-y-2">
         <a href="https://recital-app.vercel.app" target="_blank">
           <img
-            src={monet}
+            src={recital}
             alt="Recital Project"
             className="w-full h-auto object-cover border-2 rounded-md border-black"
           />
@@ -33,7 +37,7 @@ const Projects = () => {
       <div className="cursor-pointer w-full flex flex-col items-start border-2 border-primaryBorder p-3 rounded-md shadow-lg transition-transform duration-300 hover:translate-y-2">
         <a href="https://inzuconnect.com" target="_blank">
           <img
-            src={parkAfrica}
+            src={inzuconnect}
             alt="Inzu Connect Project"
             className="w-full h-auto object-cover border-2 rounded-md border-black"
           />
@@ -46,7 +50,7 @@ const Projects = () => {
       <div className="cursor-pointer w-full flex flex-col items-start border-2 border-primaryBorder p-3 rounded-md shadow-lg transition-transform duration-300 hover:translate-y-2">
         <a href="https://simba-rwanda.vercel.app" target="_blank">
           <img
-            src={bija}
+            src={simba}
             alt="Simba supermarket Project"
             className="w-full h-auto object-cover border-2 rounded-md border-black"
           />
@@ -59,7 +63,7 @@ const Projects = () => {
       <div className="cursor-pointer w-full flex flex-col items-start border-2 border-primaryBorder p-3 rounded-md shadow-lg transition-transform duration-300 hover:translate-y-2">
         <a href="https://yanibi.vercel.app" target="_blank">
           <img
-            src={malos}
+            src={yanibi}
             alt="Yanibi Artist Project"
             className="w-full h-auto object-cover border-2 rounded-md border-black"
           />

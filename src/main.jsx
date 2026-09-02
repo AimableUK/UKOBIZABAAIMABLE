@@ -7,6 +7,7 @@ import Home from './Components/Home/Home';
 import About from './Components/About/About';
 import Contact from './Components/Contact/Contact';
 import Skills from './Components/Skills/Skills'
+import Certificates from './Components/Certificates/Certificates'
 import Projects from './Components/Projects/Projects'
 import Resume from './Components/Resume/Resume';
 import Page404 from './Components/Page404/Page404';
@@ -19,6 +20,7 @@ const router = createBrowserRouter(
       <Route path='about' element={<About />} />
       <Route path='contact' element={<Contact />} />
       <Route path='skills' element={<Skills />} />
+      <Route path='certificates' element={<Certificates />} />
       <Route path='projects' element={<Projects />} />
       <Route path='resume' element={<Resume />} />
       <Route path='*' element={<Page404 />} />
