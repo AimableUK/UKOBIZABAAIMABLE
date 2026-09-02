@@ -9,7 +9,10 @@ import { Analytics } from "@vercel/analytics/react";
 const Layout = () => {
   const location = useLocation();
   const isNoScroll =
-    location.pathname === "/projects" || location.pathname === "/certificates" || location.pathname === "/skills";
+    location.pathname === "/projects" ||
+    location.pathname === "/certificates" ||
+    location.pathname === "/skills" ||
+    location.pathname === "/contact";
 
   const outletRef = useRef(null);
 

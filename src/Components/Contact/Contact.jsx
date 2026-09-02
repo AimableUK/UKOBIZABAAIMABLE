@@ -22,7 +22,7 @@ const Contact = () => {
           address: values.address,
           message: values.message,
         },
-        import.meta.env.VITE_EMAILJS_PUBLIC_KEY
+        import.meta.env.VITE_EMAILJS_PUBLIC_KEY,
       );
 
       setSubmitStatus("success");
