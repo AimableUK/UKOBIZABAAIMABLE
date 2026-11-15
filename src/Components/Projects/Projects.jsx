@@ -14,10 +14,27 @@ import recital from "../../assets/recital.png";
 import inzuconnect from "../../assets/inzuconnect.png";
 import simba from "../../assets/simba.png";
 import yanibi from "../../assets/yanibi.png";
+import mboni from "../../assets/mboni.png";
+import ihema from "../../assets/ihema.png";
 
 const Projects = () => {
   return (
     <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 w-full">
+      {/* Ihema */}
+      <div className="cursor-pointer w-full flex flex-col items-start border-2 border-primaryBorder p-3 rounded-md shadow-lg transition-transform duration-300 hover:translate-y-2">
+        <a href="https://www.ihema.app" target="_blank">
+          <img
+            src={ihema}
+            alt="Ihema Project"
+            className="w-full h-auto object-cover border-2 rounded-md border-black"
+          />
+          <p className="font-bold">
+            Ihema - Track Money owed to you
+          </p>
+          <p className="font-semibold">Visit Web</p>
+        </a>
+      </div>
+
       {/* Recital */}
       <div className="cursor-pointer w-full flex flex-col items-start border-2 border-primaryBorder p-3 rounded-md shadow-lg transition-transform duration-300 hover:translate-y-2">
         <a href="https://recital-app.vercel.app" target="_blank">
@@ -29,6 +46,19 @@ const Projects = () => {
           <p className="font-bold">
             Recital - Personal Reading & Speech Studio
           </p>
+          <p className="font-semibold">Visit Web</p>
+        </a>
+      </div>
+
+      {/* Mboni */}
+      <div className="cursor-pointer w-full flex flex-col items-start border-2 border-primaryBorder p-3 rounded-md shadow-lg transition-transform duration-300 hover:translate-y-2">
+        <a href="https://mboni-app.vercel.app" target="_blank">
+          <img
+            src={mboni}
+            alt="Mboni Project"
+            className="w-full h-auto object-cover border-2 rounded-md border-black"
+          />
+          <p className="font-bold">Mboni - Rwanda Analytical Workspace</p>
           <p className="font-semibold">Visit Web</p>
         </a>
       </div>
